@@ -40,7 +40,7 @@ class Calculator
         return $OrderNumber[$operator];
     }
 
-    private function toPostfix(array $args): array //
+    private function toPostfix(array $args): array
     {
         $output = [];
         $stack = [];
@@ -98,5 +98,3 @@ class Calculator
         return $this->evaluatePostfix($postfix);
     }
 }
-
-
