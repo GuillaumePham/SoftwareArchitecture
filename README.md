@@ -9,7 +9,7 @@ Il est nécéssaire d'avoir PHP 8 (de préférence) sur son ordinateur installé
 Apres Avoir installer (Cloner ou autre) le projet, il est important de télécharger les dépendances de composer via le terminal dans le bon chemin d'accées du dossier (SoftwareArchitecture)
 grace à docker comme ceci
 
-``` sh docker compose up php-composer ```
+```docker compose up php-composer ```
 
 ### Utilistaion du Projet
 
